@@ -1,3 +1,5 @@
-import "./style.css";
+import { traerValorInput } from "./validador";
 
-console.log("Hello Typescript!");
+document.addEventListener("DOMContentLoaded", () => {
+	traerValorInput();
+});
